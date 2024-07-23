@@ -5,7 +5,7 @@
 body {
   font-family: sans-serif;
 }
-/*---------------------------------------------- header ----------------------------------------------*/
+/*------------------------------------------- header -------------------------------------------*/
 #nav-bar {
   position: sticky;
   top: 0;
@@ -31,7 +31,7 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
-/*---------------------------------------------- banner ----------------------------------------------*/
+/*------------------------------------------- banner -------------------------------------------*/
 #banner {
   background: linear-gradient(to right, #a517ba, #5f1782);
   color: #fff;
@@ -54,7 +54,7 @@ body {
 .bottom-img {
   width: 100%;
 }
-/*---------------------------------------------- services ----------------------------------------------*/
+/*------------------------------------------ services ------------------------------------------*/
 
 #services {
   padding-top: 100px;
@@ -100,7 +100,7 @@ body {
   background: linear-gradient(to right, #a517ba, #5f1782);
 }
 
-/*---------------------------------------------- About-us section ----------------------------------------------*/
+/*--------------------------------------- About-us section ---------------------------------------*/
 
 #about-us {
   background: #f8f9fa;
@@ -119,7 +119,7 @@ body {
   margin-left: 20px;
 }
 
-/*---------------------------------------------- About-us section ----------------------------------------------*/
+/*------------------------------------------ About-us section ------------------------------------*/
 
 #testimonials {
   margin: 100px 0;
@@ -138,4 +138,23 @@ body {
 .user-details {
   display: inline-block;
   font-size: 12px;
+}
+
+/*--------------------------------------social-media section -------------------------------------*/
+
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
 }
