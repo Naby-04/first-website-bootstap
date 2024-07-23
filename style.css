@@ -16,6 +16,10 @@ body {
   background: linear-gradient(to right, #a517ba, #5f1782);
   padding: 0 !important;
 }
+.navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
 .navbar-nav li {
   padding: 0 10px;
 }
@@ -118,6 +122,9 @@ body {
 }
 #about-us ul {
   margin-left: 20px;
+}
+#about-us .row {
+  align-items: center;
 }
 
 /*------------------------------------------ About-us section ------------------------------------*/

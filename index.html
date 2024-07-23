@@ -50,19 +50,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#footer">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -171,7 +171,7 @@
         <div class="container">
           <h1 class="title text-center">WHAT CLIENTS SAY ?</h1>
           <div class="row offset-1">
-            <div class="col-md-5 testimonials">
+            <div class="col-md-4 testimonials">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                 dicta quia itaque error fugit dolores hic assumenda deleniti,
@@ -182,7 +182,7 @@
               <img src="images/user1.jpg" alt="" />
               <p class="user-details"><b>Agelina</b><br />Co-founder at xyz</p>
             </div>
-            <div class="col-md-5 testimonials">
+            <div class="col-md-4 testimonials">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
                 dicta quia itaque error fugit dolores hic assumenda deleniti,
@@ -192,6 +192,19 @@
               </p>
               <img src="images/user2.jpg" alt="" />
               <p class="user-details"><b>John Doe</b><br />Director of xyz</p>
+            </div>
+            <div class="col-md-4 testimonials">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                dicta quia itaque error fugit dolores hic assumenda deleniti,
+                maxime explicabo culpa dolorum cumque illum repellat? Debitis
+                eos quos earum tempore! Obcaecati illum illo quod velit
+                quibusdam, earum tempora error voluptas.
+              </p>
+              <img src="images/user3.jpg" alt="" />
+              <p class="user-details">
+                <b>Seydina Mohamed Diop</b><br />founder of xyz
+              </p>
             </div>
           </div>
         </div>
@@ -215,7 +228,7 @@
 
       <!---------------------------------- footer-section ---------------------------------->
 
-      <footer>
+      <footer id="footer">
         <img src="images/wave2.png" class="footer-img" />
         <div class="container">
           <div class="row">
@@ -260,6 +273,11 @@
           <p class="copyright">Website crafted by Easy Tutorials</p>
         </div>
       </footer>
+      <!----------------------------- smooth-scroll ----------------------------->
+      <script src="smooth-scroll.js"></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
     </main>
   </body>
 </html>
